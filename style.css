@@ -9,7 +9,7 @@ html, body {
     box-sizing: inherit;
 }
 
-body{
+body.homepage{
   background-image: url("bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -27,6 +27,7 @@ body{
   font-size: 50px;
   color:white;
   margin-bottom: 5px;
+  margin-top: 0;
 
 }
 .tagline {
@@ -42,6 +43,108 @@ body{
   cursor: pointer;
 }
 .button:hover{
+  background: white;
+  color: blueviolet;
+}
+
+
+
+/* *********************** || CSS for Chat Page || ************************** */
+
+.member-area{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 30%;
+  background-color: #1A5276;
+  color:#D7DBDD;
+}
+
+.user-info{
+  background: #34495E;
+  padding: 10px;
+  color: white;
+}
+
+.logout{
+  float: right;
+}
+
+.member{
+  padding: 10px;
+  border-bottom: solid 1px white;
+}
+.member:hover
+{
+  background: white;
+  color: #34495E;
+}
+.member.active{
+  font-weight: bold;
+    font-family: 'Architects Daughter', cursive;
+  background-color: azure;
+  color:#34495E;
+}
+.message-area{
+  background-color: azure;
+  position:fixed;
+  left: 30%;
+  top: 0;
+  bottom: 0;
+  width: 70%;
+}
+
+.chat-info{
+  background-color: white;
+  padding:10px;
+  color:black;
+
+
+}
+
+.messages{
+  background: #2874A6;
+  height:80%;
+  padding: 10px;
+  overflow: auto;
+}
+.message{
+  background: #1B4F72;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-family: 'Architects Daughter', cursive;
+}
+.message.by-user{
+  background: darkgray;
+}
+
+.chat-form
+{
+  position: fixed;
+  left: 30%;
+  bottom: 0;
+  width: 70%;
+  background: white;
+  padding: 10px;
+}
+.chat-message{
+  padding: 10px;
+  border: solid 1px lightgray;
+  border-radius: 4px;
+  display: bolck;
+  width: 80%;
+}
+.send-btn{
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.send-btn:hover{
   background: white;
   color: blueviolet;
 }
