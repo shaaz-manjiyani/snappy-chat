@@ -99,6 +99,7 @@ body.homepage{
   background-color: white;
   padding:10px;
   color:black;
+  font-family: 'Sniglet', cursive;
 
 
 }
@@ -134,7 +135,7 @@ body.homepage{
   border: solid 1px lightgray;
   border-radius: 4px;
   display: bolck;
-  width: 80%;
+  width:85%;
 }
 .send-btn{
   background-color: blueviolet;
@@ -143,6 +144,7 @@ body.homepage{
   padding: 10px 20px;
   border-radius: 4px;
   cursor: pointer;
+  margin-left: 5px;
 }
 .send-btn:hover{
   background: white;

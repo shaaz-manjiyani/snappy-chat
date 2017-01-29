@@ -1,0 +1,1 @@
+click("signButton",logInUser);
